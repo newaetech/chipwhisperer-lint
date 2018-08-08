@@ -1,0 +1,10 @@
+flask
+numpy
+scipy
+statsmodels
+yattag
+chipwhisperer
+tqdm
+gevent==1.2.1
+configparser
+gunicorn
