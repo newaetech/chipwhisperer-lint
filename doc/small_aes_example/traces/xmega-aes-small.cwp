@@ -1,0 +1,10 @@
+[Trace Management]
+tracefile0 = xmega-aes-small_data\traces\config_2017.06.20-13.35.21_.cfg
+enabled0 = True
+[ChipWhisperer]
+[[General Settings]]
+Project Name = Untitled
+Program Name = ChipWhisperer
+Project File Version = 1.00
+Project Author = Unknown
+Program Version = V3.5.1
