@@ -4,9 +4,16 @@ This project is designed to help users perform automated testing of embedded har
 
 With these traces we can perform analysis to determine how vulnerable a target device (normally - an AES crypto hardware core) is to side channel power analysis.
 
-# More Details #
+## Examples ##
 
-For more details see the [White Paper](doc/CW_Lint_White_Paper.pdf). This was presented at Black Hat 2018.
+For more details on this tool and results see the [White Paper](doc/CW_Lint_White_Paper.pdf). This was presented at Black Hat 2018.
+
+
+See the following for examples and results:
+
+ - doc folder with some small projects and output examples.
+ - The [MBED-TLS Summary Build Demo](https://github.com/newaetech/cwlint-demo-aes-arm) .
+ - The [Overlord-Talk Repo](https://github.com/newaetech/overlord-talk)
 
 # Usage #
 
@@ -46,11 +53,3 @@ python client.py result --html example_result.html 8
 ```
 
 The report generation is currently a simple script -- this will be fixed eventually, but for the PoC has worked well enough (oops). It will likely happen on the backend since it will become much faster to download.
-
-## Examples ##
-
-See the following for examples:
-
- - doc folder with some small projects and output examples.
- - The [MBED-TLS Summary Build Demo](https://github.com/newaetech/cwlint-demo-aes-arm) .
- - The [Overlord-Talk Repo](https://github.com/newaetech/overlord-talk)
